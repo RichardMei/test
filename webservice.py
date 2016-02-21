@@ -7,4 +7,4 @@ with open('filename','r') as f:
 	for line in f:
 		result = client.service.sendCommitTransJsonInfo(line)
 		count = count + 1
-		print 'success num:%d, response:%s' % (count, result) 
+		print ('success num:%d, response:%s' % (count, result)) 
