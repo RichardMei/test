@@ -1,6 +1,6 @@
 from suds.client import Client
 
-url = 'http://localhost:8080/cstc-web/services/msettleTestFacade?wsdl' 
+url = 'http://localhost:8080/web/services/msTestFacade?wsdl' 
 client = Client(url)
 count = 0;
 with open('filename','r') as f:
